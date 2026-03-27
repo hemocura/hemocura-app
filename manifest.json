@@ -1,0 +1,43 @@
+{
+  "name": "HEMOCURA Gestión Comercial v10",
+  "short_name": "HEMOCURA",
+  "description": "Sistema de gestión comercial para HEMOCURA – Hemoderivados",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#5C0A0A",
+  "theme_color": "#5C0A0A",
+  "orientation": "any",
+  "scope": "./",
+  "lang": "es",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nueva Venta",
+      "short_name": "Venta",
+      "description": "Registrar despacho de hemoderivados",
+      "url": "./index.html#ventas",
+      "icons": [{"src": "assets/icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Nuevo Contacto",
+      "short_name": "Contacto",
+      "description": "Registrar contacto visitado",
+      "url": "./index.html#contactos",
+      "icons": [{"src": "assets/icon-192.png", "sizes": "192x192"}]
+    }
+  ]
+}
